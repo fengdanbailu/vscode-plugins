@@ -1,0 +1,36 @@
+@startuml uml-yongli
+
+' title 角色图练习
+' (用例 1) as u1
+' usecase (用例 2) as u2
+' usecase u3 as "You can use
+' several lines to define your usecase.
+' You can also use separators.
+' --
+' Several separators are possible.
+' ==
+' And you can add titles:
+' ..Conclusion..
+' This allows large description."
+' :角色 1: as actor1
+' actor :角色 2: as actor2
+' ' u1 -> u2
+' u2 --> u3 : this is a tooltips
+' actor1 ---> u2: this is\nyet another\lable
+' actor1 --> actor2 : a label
+' u2 <|-- u1 :用例 1继承自 用例 2
+' note top of u1 : 这是练习用的图\n 后面越来越乱
+
+' newpage
+' User << gmchen >> as gm
+' :MySQL: as mysql <<Application>>
+' (start) << One shot >>
+' gm -up-> mysql
+' gm .right-> (start)
+' mysql ..> (start)
+
+' newpage
+top to bottom direction
+uu1 --> (test 1)
+uu2 --> (test 2)
+@enduml
