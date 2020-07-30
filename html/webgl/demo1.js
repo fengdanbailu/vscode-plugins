@@ -2,10 +2,16 @@
  * @Author: gm.chen
  * @Date: 2020-07-17 14:01:15
  * @LastEditors: gm.chen
- * @LastEditTime: 2020-07-17 14:01:31
+ * @LastEditTime: 2020-07-17 14:06:28
  * @Description: file content
  * @FilePath: /vscode-plugins/html/webgl/demo1.js
  */ 
+
+// 资料
+// https://www.toptal.com/javascript/3d-graphics-a-webgl-tutorial
+// https://avikdas.com/2020/07/08/barebones-webgl-in-75-lines-of-code.html
+// https://www.w3cschool.cn/webgl/i4gf1oh1.html
+
 //通过getElementById()方法获取canvas画布
 var canvas=document.getElementById('webgl');
 //通过方法getContext()获取WebGL上下文
